@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  </head>
+  <body>
+    <p>Antes del script...</p>
+    <script>
+      alert("¡Hola Mundo!");
+    </script>
+    <script src="./js/ejemplo1.js">
+      alert("¡Hola Mundo!"); // esta línea no se ejecuta, lo ignora
+    </script>
+    <p>...Después del script.</p>
+  </body>
+</html>
